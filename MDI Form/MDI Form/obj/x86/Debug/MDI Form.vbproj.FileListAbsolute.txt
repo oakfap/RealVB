@@ -1,0 +1,10 @@
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\bin\Debug\MDI Form.exe
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\bin\Debug\MDI Form.pdb
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\bin\Debug\MDI Form.xml
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI_Form.Form1.resources
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI_Form.Form2.resources
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI_Form.Resources.resources
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI Form.vbproj.GenerateResource.Cache
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI Form.exe
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI Form.xml
+C:\Users\Science-313\Desktop\งานคอม\MDI Form\MDI Form\obj\x86\Debug\MDI Form.pdb

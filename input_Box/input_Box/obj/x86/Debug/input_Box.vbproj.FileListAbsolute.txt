@@ -1,0 +1,10 @@
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\bin\Debug\input_Box.exe
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\bin\Debug\input_Box.pdb
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\bin\Debug\input_Box.xml
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.Form1.resources
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.Resources.resources
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.vbproj.GenerateResource.Cache
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.exe
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.xml
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.pdb
+C:\Users\Science-313\Desktop\งานคอม\input_Box\input_Box\obj\x86\Debug\input_Box.Form2.resources
