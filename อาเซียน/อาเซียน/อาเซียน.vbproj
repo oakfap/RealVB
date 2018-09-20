@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D50066F-E0E4-4DBD-9700-3A25672DD1CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>อาเซียน.My.MyApplication</StartupObject>
+    <RootNamespace>อาเซียน</RootNamespace>
+    <AssemblyName>อาเซียน</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>อาเซียน.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>อาเซียน.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Member.Designer.vb">
+      <DependentUpon>Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thailand.Designer.vb">
+      <DependentUpon>Thailand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Thailand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myanmar.Designer.vb">
+      <DependentUpon>myanmar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="myanmar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="philip.Designer.vb">
+      <DependentUpon>philip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="philip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="indo.Designer.vb">
+      <DependentUpon>indo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="indo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vietnam.Designer.vb">
+      <DependentUpon>vietnam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vietnam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sing.Designer.vb">
+      <DependentUpon>Sing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laos.Designer.vb">
+      <DependentUpon>laos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="malay.Designer.vb">
+      <DependentUpon>malay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="malay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flag.Designer.vb">
+      <DependentUpon>flag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="flag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brunai.Designer.vb">
+      <DependentUpon>Brunai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Brunai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cambodia.Designer.vb">
+      <DependentUpon>Cambodia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cambodia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Member.resx">
+      <DependentUpon>Member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thailand.resx">
+      <DependentUpon>Thailand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myanmar.resx">
+      <DependentUpon>myanmar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="philip.resx">
+      <DependentUpon>philip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="indo.resx">
+      <DependentUpon>indo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vietnam.resx">
+      <DependentUpon>vietnam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sing.resx">
+      <DependentUpon>Sing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laos.resx">
+      <DependentUpon>laos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="malay.resx">
+      <DependentUpon>malay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flag.resx">
+      <DependentUpon>flag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brunai.resx">
+      <DependentUpon>Brunai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cambodia.resx">
+      <DependentUpon>Cambodia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Asian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\bali.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\brunai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\indo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\KUALA-LUMPUR-MALAYSIA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\malay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\mobile_slide_Angkor_Wat__Cambodia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\sultan.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
